@@ -1,0 +1,51 @@
+<!DOCTYPE html>
+
+<html>
+    <head>
+        <title>ANALIZADOR LEXICO</title>
+        <meta charset="UTF-8">
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+        <link rel="stylesheet" type="text/css" href="./estilo.css">
+    </head>
+    <body>
+        <header>
+            <h2>ANALIZADOR LEXICO</h2>
+        </header>
+        <div class="contenedor">
+            <article>
+                <h3> INGRESE EL TEXTO A ANALIZAR </h3>
+            </article>
+            <article>
+                <input type="text" id="texto"/>
+            </article>
+            <article>                
+                <button onclick="reconocer()" type="button">RECONOCER</button>
+            </article>            
+        </div>
+        <div class="contenedor2">
+            <ul>PALABRA
+                <div id="palabra" class="elementos"></div>
+            </ul>
+            <ul>CLASIFICACION
+                <div id="clasificacion" class="elementos"></div>
+            </ul>
+            <ul>INICIA CON A-Z
+                <div id="iniciaConAZ" class="elementos"></div>
+            </ul>
+            <ul>TIENE LETRAS
+                <div id="tieneLetras" class="elementos"></div>
+            </ul>
+            <ul>TIENE NUMEROS
+                <div id="tieneNumeros" class="elementos"></div>
+            </ul>
+            <ul>TIENE SIMBOLOS
+                <div id="tieneSimbolos" class="elementos"></div>
+            </ul>
+        </div>
+        <footer>
+            <p>Lenguajes Formales y de programación</p>
+            <p>Derechos Reservados DenilsonDeLeón </p>
+        </footer>
+        <script type="text/javascript" src="./funciones.js"></script>
+    </body>
+</html>

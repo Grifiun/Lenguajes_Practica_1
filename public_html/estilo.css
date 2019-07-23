@@ -1,0 +1,47 @@
+body{
+    background: grey;
+    color: cyan;
+    margin-top: 5%;
+}
+h2{
+    width: 15%;
+    display: block;
+    margin: auto;
+}
+h3{
+    width: 18%;
+    display: block;
+    margin: auto;
+}
+input{
+    width: 20%;
+    display: block;
+    margin: auto;
+}
+button{
+    width: 20%;
+    display: block;
+    margin: auto;
+}
+footer{
+    background: blueviolet;
+    color: cornsilk;
+    margin-top: 16%;
+}
+p{
+    width: 15%;
+    display: block;
+    margin: auto;
+}
+.contenedor{
+    margin-top: 9%;    
+}
+.contenedor2{
+    margin-left: 21%;   
+}
+ul{
+    display: inline-block;    
+}
+il{
+    display: block;
+}

@@ -29,6 +29,9 @@ footer{
     margin-top: 16%;
 }
 p{
+    text-align: center;
+}
+.pFooter{
     width: 15%;
     display: block;
     margin: auto;
@@ -37,11 +40,11 @@ p{
     margin-top: 9%;    
 }
 .contenedor2{
-    margin-left: 21%;   
+    margin-left: 24%;   
 }
 ul{
     display: inline-block;    
 }
-il{
-    display: block;
+.colorRojo{
+    color: crimson;
 }

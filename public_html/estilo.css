@@ -23,6 +23,10 @@ button{
     display: block;
     margin: auto;
 }
+header{
+    background: blueviolet;
+    color: cornsilk;
+}
 footer{
     background: blueviolet;
     color: cornsilk;
